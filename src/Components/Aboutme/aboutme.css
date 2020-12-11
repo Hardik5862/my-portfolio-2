@@ -1,0 +1,38 @@
+#about {
+	padding-top: 50px; 
+}
+
+.container {
+	min-height: 400px;
+}
+
+.container h3{
+	text-align: center;
+}
+
+.abt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin: 40px;
+}
+
+.abt img {
+	height: 200px;
+	border-radius: 50%; 
+}
+
+.abt p {
+	margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	.abt {
+		flex-wrap: wrap;
+	}
+	.abt p {
+		margin: 3px;
+		font-size: 0.9rem;
+	}
+}

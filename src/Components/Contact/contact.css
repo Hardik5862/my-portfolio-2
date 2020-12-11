@@ -1,0 +1,46 @@
+#contact {
+  margin: auto;
+  padding-bottom: 20px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.title {
+  padding-bottom: 15px;
+  letter-spacing: normal;
+  color: white;
+  font-size: 4rem;
+}
+
+.social-media {
+  padding: 10px;
+  display: flex;
+  position: center;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.social-media a {
+  margin: 10px;
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+.social-media a i {
+  cursor: pointer;
+}
+
+.social-media a:hover {
+  color: white;
+  text-shadow: 0 0 50px white;
+}
