@@ -1,5 +1,6 @@
 #contact {
   margin: auto;
+  padding-top: 100px;
   padding-bottom: 20px;
   height: 400px;
   display: flex;
@@ -13,11 +14,13 @@
   font-size: 1.2rem;
 }
 
-.title {
-  padding-bottom: 15px;
+#contact .title {
+  padding-bottom: 10px;
+  margin-bottom: 70px;
   letter-spacing: normal;
   color: white;
   font-size: 4rem;
+  border-bottom: 5px solid white;
 }
 
 .social-media {

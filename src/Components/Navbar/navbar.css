@@ -1,5 +1,5 @@
 .logo {
-  padding: 0;
+  padding-left: 10px;
   margin: 0;
 }
 
@@ -7,6 +7,8 @@
   width: 40px;
   padding: 0;
   margin: 0;
+  border: black 1px solid;
+  border-radius: 50%;
 }
 
 .nav-link {
