@@ -10,7 +10,7 @@ function Aboutme() {
         <div className="abt">
           <img
             alt="this is my pic"
-            src={`${process.env.PUBLIC_URL}/assets/myimage.jpg`}
+            src={`${process.env.PUBLIC_URL}/assets/myimage.png`}
           />
           <p>
             "I am a Web Developer and a graphic designer. I have acquired the

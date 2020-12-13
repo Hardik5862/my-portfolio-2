@@ -1,6 +1,16 @@
 export const projects = [
   {
     id: 1,
+    icon: "crwnverse-clothing.png",
+    title: "CrwnVerse Clothing",
+    desc:
+      "This is an e-commerce website created under the guidance of Mr. Andrei. I learned lot of new things from this project like stripe inegration, styled-components, etc.",
+    link: "https://crwnverseclothing.herokuapp.com/",
+    txt: "View",
+    sterm: "crwn clothing web development react reactjs ",
+  },
+  {
+    id: 2,
     icon: "yt.png",
     title: "The Nerd Taught",
     desc:
@@ -11,18 +21,8 @@ export const projects = [
       "youtube channel the nerd taught graphic design motion design education physics chemistry maths ",
   },
   {
-    id: 995,
-    icon: "yt.png",
-    title: "CrwnVerse Clothing",
-    desc:
-      "This is an e-commerce website created under the guidance of Mr. Andrei. I learned lot of new things from this project like stripe inegration, styled-components, etc.",
-    link: "https://crwnverseclothing.herokuapp.com/",
-    txt: "View",
-    sterm: "crwn clothing web development react reactjs ",
-  },
-  {
     id: 996,
-    icon: "yt.png",
+    icon: "face-legendary.png",
     title: "Face Legendary",
     desc:
       "This app detects face in an image. It uses clarifai api for face detection, tachyons for styling, heroku for app deployment and PostgreSQL database for storing user information.",
@@ -32,7 +32,7 @@ export const projects = [
   },
   {
     id: 997,
-    icon: "yt.png",
+    icon: "robofriends.png",
     title: "Robofriends",
     desc:
       "This is my first react project that I have created under the guidance of Mr. Andrei. It uses tachyons for styling and jsonplaceholder.typicode.com for fetching data.",
@@ -42,7 +42,7 @@ export const projects = [
   },
   {
     id: 998,
-    icon: "yt.png",
+    icon: "bg-generator.png",
     title: "Background Generator",
     desc:
       "This is my very first javascript project. Through this app, we can generate css gradient backgrounds and it also has random linear gradient generating feature.",
@@ -52,7 +52,7 @@ export const projects = [
   },
   {
     id: 999,
-    icon: "yt.png",
+    icon: "blade-gaming.png",
     title: "Blade gaming",
     desc:
       "I have created logo and intro video for this youtube channel using free assets from freepik.com for logo. This is my very first graphic design project for a client.",

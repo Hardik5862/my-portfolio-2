@@ -8,7 +8,7 @@ function NavBar() {
     <Navbar collapseOnSelect expand="md" bg="light" variant="light" fixed="top">
       <Navbar.Brand className="logo">
         <img
-          src={`${process.env.PUBLIC_URL}/assets/myimage.jpg`}
+          src={`${process.env.PUBLIC_URL}/assets/myimage.png`}
           alt="Logo"
           className="img"
         />
