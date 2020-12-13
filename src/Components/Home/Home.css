@@ -1,17 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
 
 #home {
   height: 100vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
-#home p {
-  margin-left: 2rem;
-  font-family: "Roboto", sans-serif;
+#home span {
+  margin: auto;
+  font-family: Khula;
   font-size: 4rem;
   font-weight: bold;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #home span {
+    font-size: 3rem;
+  }
 }
