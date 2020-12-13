@@ -13,14 +13,11 @@ function Aboutme() {
             src={`${process.env.PUBLIC_URL}/assets/myimage.jpg`}
           />
           <p>
-            Given n Magnets which are placed linearly, with each magnet to be
-            considered as of point object. Each magnet suffers force from its
-            left sided magnets such that they repel it to the right and vice
-            versa. All forces are repulsive. The force being equal to the
-            distance (1/d , d being the distance). Now given the positions of
-            the magnets, the task to find all the points along the linear line
-            where net force is ZERO. Note: Distance have to be calculated with
-            precision of 0.0000000000001.
+            "I am a Web Developer and a graphic designer. I have acquired the
+            basic knowledge of Web Development under the guidance of Mr. Andrei.
+            From there on, I have worked on my skills and sharpened them. I am
+            also a self taught graphic designer and worked for three youtube
+            channels."
           </p>
         </div>
       </Container>

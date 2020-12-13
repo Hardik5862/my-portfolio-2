@@ -46,3 +46,9 @@
   color: white;
   text-shadow: 0 0 50px white;
 }
+
+@media only screen and (max-width: 600px) {
+  #contact .title {
+    font-size: 3rem;
+  }
+}

@@ -38,6 +38,8 @@
 }
 
 .abt p {
+  font-size: 20px;
+  font-weight: bold;
   margin-left: 30px;
 }
 
@@ -47,6 +49,9 @@
   }
   .abt p {
     margin: 3px;
-    font-size: 0.9rem;
+    font-size: 15px;
+  }
+  #about .title {
+    font-size: 3rem;
   }
 }
