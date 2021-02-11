@@ -25,6 +25,7 @@ const Contact = () => {
         autoComplete="off"
         name="contact"
         method="POST"
+        netlify
         data-netlify="true"
         data-netlify-recaptcha="true"
       >
@@ -59,7 +60,7 @@ const Contact = () => {
             rows={5}
             color="secondary"
           />
-          <div data-netlify-recaptcha="true"></div>
+          <div data-netlify-recaptcha="true" netlify-recaptcha></div>
         </div>
         <div className={classes.submit}>
           <Button
