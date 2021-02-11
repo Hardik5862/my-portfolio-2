@@ -10,7 +10,7 @@ const Contact = () => {
   const classes = useStyles();
   const [isProcessing, setIsProcessing] = useState(false);
 
-  const handleSubmit = (event) => {
+  const handleClick = (event) => {
     event.preventDefault();
     setIsProcessing(true);
   };
@@ -20,14 +20,11 @@ const Contact = () => {
       <h1>Feel free to contact me</h1>
       <h4>You can also contact me via social media</h4>
       <form
-        onSubmit={handleSubmit}
         className={classes.form}
         autoComplete="off"
-        name="contact"
-        method="POST"
-        netlify
+        name="contactForm1"
+        action="POST"
         data-netlify="true"
-        data-netlify-recaptcha="true"
       >
         <div>
           <TextField
@@ -60,7 +57,7 @@ const Contact = () => {
             rows={5}
             color="secondary"
           />
-          <div data-netlify-recaptcha="true" netlify-recaptcha></div>
+          <div data-netlify-recaptcha="true"></div>
         </div>
         <div className={classes.submit}>
           <Button
@@ -68,6 +65,7 @@ const Contact = () => {
             variant="contained"
             color="secondary"
             disabled={isProcessing}
+            onClick={handleClick}
           >
             <SendIcon style={{ marginRight: "5px" }} />
             {isProcessing ? "PROCESSING..." : "SEND MESSAGE"}
