@@ -1,17 +1,11 @@
 {
-<<<<<<< HEAD
   "short_name": "React App",
   "name": "Create React App Sample",
-=======
-  "short_name": "Portfolio",
-  "name": "My portfolio website",
->>>>>>> f6c2ef71471c145171d5f0e53f8faff358cade22
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-<<<<<<< HEAD
     },
     {
       "src": "logo192.png",
@@ -22,8 +16,6 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
-=======
->>>>>>> f6c2ef71471c145171d5f0e53f8faff358cade22
     }
   ],
   "start_url": ".",
