@@ -26,6 +26,7 @@ const Contact = () => {
         action="POST"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="name_of_my_form" />
         <div>
           <TextField
             required
