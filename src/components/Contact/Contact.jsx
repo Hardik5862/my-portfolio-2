@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import SendIcon from "@material-ui/icons/Send";
@@ -8,12 +6,6 @@ import { useStyles } from "./Contact.styles";
 
 const Contact = () => {
   const classes = useStyles();
-  const [isProcessing, setIsProcessing] = useState(false);
-
-  const handleClick = (event) => {
-    event.preventDefault();
-    setIsProcessing(true);
-  };
 
   return (
     <div className={classes.root}>
@@ -23,7 +15,7 @@ const Contact = () => {
         className={classes.form}
         autoComplete="off"
         name="contactForm1"
-        action="POST"
+        method="post"
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contactForm1" />
@@ -61,15 +53,9 @@ const Contact = () => {
           <div data-netlify-recaptcha="true"></div>
         </div>
         <div className={classes.submit}>
-          <Button
-            type="submit"
-            variant="contained"
-            color="secondary"
-            disabled={isProcessing}
-            onClick={handleClick}
-          >
+          <Button type="submit" variant="contained" color="secondary">
             <SendIcon style={{ marginRight: "5px" }} />
-            {isProcessing ? "PROCESSING..." : "SEND MESSAGE"}
+            SEND
           </Button>
         </div>
       </form>
