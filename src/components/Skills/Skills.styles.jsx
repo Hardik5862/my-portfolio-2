@@ -29,6 +29,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   card: {
     display: "flex",
+    backgroundColor: `${theme.palette.primary.main}`,
   },
   content: {
     flex: "1 0 auto",

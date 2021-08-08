@@ -27,6 +27,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   rootCard: {
     maxWidth: 345,
+    backgroundColor: `${theme.palette.primary.main}`,
   },
   media: {
     height: 140,
