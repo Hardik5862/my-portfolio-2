@@ -13,4 +13,7 @@ export const useStyles = makeStyles((theme) => ({
   fullList: {
     width: "auto",
   },
+  paper: {
+    backgroundColor: theme.palette.primary.dark,
+  },
 }));

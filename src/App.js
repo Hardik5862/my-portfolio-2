@@ -1,8 +1,7 @@
 import { Suspense, lazy } from "react";
 import { Switch, Route } from "react-router-dom";
 
-import { unstable_createMuiStrictModeTheme as createMuiTheme } from "@material-ui/core";
-import { ThemeProvider } from "@material-ui/styles";
+import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 
 import SwipeableTemporaryDrawer from "./components/Navigation/Sidebar";
 import Loader from "./components/Loader/Loader";
@@ -13,12 +12,12 @@ const Skills = lazy(() => import("./components/Skills/Skills"));
 const Contact = lazy(() => import("./components/Contact/Contact"));
 const Error404 = lazy(() => import("./components/Error404/Error404"));
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     type: "dark",
     primary: {
-      main: "#344955",
-      dark: "#232F34",
+      main: "#191919",
+      dark: "#212121",
       contrastText: "#FFFFFF",
     },
     secondary: {

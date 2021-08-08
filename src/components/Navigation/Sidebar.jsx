@@ -32,6 +32,7 @@ export default function SwipeableTemporaryDrawer() {
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
+        classes={{ paper: classes.paper }}
       >
         <div
           className={classes.list}
