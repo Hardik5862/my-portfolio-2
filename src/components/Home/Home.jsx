@@ -1,5 +1,6 @@
 import Button from "@material-ui/core/Button";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import GetAppIcon from "@material-ui/icons/GetApp";
 import ScrambledText from "./ScrambledText";
 
 import { useStyles } from "./Home.styles";
@@ -17,15 +18,27 @@ const Home = () => {
           I'm a <ScrambledText />.
         </h3>
       </div>
-      <Button
-        variant="contained"
-        color="secondary"
-        href="https://github.com/Hardik5862"
-        target="_blank"
-      >
-        <GitHubIcon style={{ marginRight: "10px" }} />
-        Github
-      </Button>
+      <div>
+        <Button
+          variant="contained"
+          href={`${process.env.PUBLIC_URL}/resume/resume.pdf`}
+          className={classes.btn}
+          download
+        >
+          <GetAppIcon style={{ marginRight: "5px" }} />
+          Resume
+        </Button>
+        <Button
+          variant="contained"
+          color="secondary"
+          href="https://github.com/Hardik5862"
+          target="_blank"
+          className={classes.btn}
+        >
+          <GitHubIcon style={{ marginRight: "5px" }} />
+          Github
+        </Button>
+      </div>
     </div>
   );
 };

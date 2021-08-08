@@ -17,4 +17,7 @@ export const useStyles = makeStyles((theme) => ({
   name: {
     color: `${theme.palette.secondary.main}`,
   },
+  btn: {
+    margin: "0 5px",
+  },
 }));
