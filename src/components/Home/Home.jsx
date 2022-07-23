@@ -21,7 +21,7 @@ const Home = () => {
       <div>
         <Button
           variant="contained"
-          href={`${process.env.PUBLIC_URL}/resume/resume.pdf`}
+          href={`${process.env.PUBLIC_URL}/resume/191230022_hardik_sachan.pdf`}
           className={classes.btn}
           download
         >
